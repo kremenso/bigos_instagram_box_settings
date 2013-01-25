@@ -2757,3 +2757,223 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-13 23:00:34 +0100
 Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:15:28 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (35.6ms)
+Completed 500 Internal Server Error in 46ms
+
+ActionView::Template::Error (undefined local variable or method `bigos_instagram_box_widget' for #<#<Class:0x00000001fe0f50>:0x0000000196da88>):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__4132270879070963402_22152240'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:16:04 +0100
+Processing by TestController#index as HTML
+  [1m[36mBigosInstagramBox::Setting Load (1.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_client_id' LIMIT 1[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_client_secret' LIMIT 1
+  [1m[36mBigosInstagramBox::Setting Load (0.7ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_hashtag' LIMIT 1[0m
+Instagram by Hash API ERROR
+  [1m[35mBigosInstagramBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_user_id' LIMIT 1
+  [1m[36mBigosInstagramBox::Setting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_user_name' LIMIT 1[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_access_token' LIMIT 1
+Instagram by User ID API ERROR
+  [1m[36mBigosInstagramBox::Setting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_latitude' LIMIT 1[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_longitude' LIMIT 1
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_widget.html.erb (0.5ms)
+  Rendered test/index.html.erb within layouts/application (6513.7ms)
+Compiled jquery.js  (1ms)  (pid 25887)
+Compiled jquery_ujs.js  (0ms)  (pid 25887)
+Compiled application.js  (53ms)  (pid 25887)
+Completed 200 OK in 6592ms (Views: 6573.8ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 23:16:11 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 23:16:11 +0100
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 23:16:11 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 23:16:11 +0100
+Served asset /application.js - 200 OK (6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:16:56 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (50.6ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (undefined method `raiser' for #<#<Class:0x000000026e7218>:0x0000000354be30>):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3746192626239699165_29115600'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:17:19 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (34.1ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (fivelampstavern):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3263334208505383502_32787260'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:17:19 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (fivelampstavern):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3263334208505383502_32787260'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:17:20 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (fivelampstavern):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3263334208505383502_32787260'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:18:30 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1249.4ms)
+Completed 500 Internal Server Error in 1260ms
+
+ActionView::Template::Error (uninitialized constant BigosInstagramBox::InstagramPhoto):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3440360548223456228_27987740'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:23:06 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1055.0ms)
+Completed 500 Internal Server Error in 1067ms
+
+ActionView::Template::Error (uninitialized constant BigosInstagramBox::InstagramPhoto):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3920557854771966223_34303400'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:23:28 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (3000.0ms)
+Completed 500 Internal Server Error in 3010ms
+
+ActionView::Template::Error (GET https://api.instagram.com/v1/users/46186144/media/recent.json?max_tag_id&count=60&access_token&client_id=2854a4f9829e4aaf8137411534a982d0: 400: "access_token" URL parameter missing. This OAuth request requires an "access_token" URL parameter.):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__2643125186188115795_36534480'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 23:24:13 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (3158.3ms)
+Completed 500 Internal Server Error in 3160ms
+
+ActionView::Template::Error (GET https://api.instagram.com/v1/users/46186144/media/recent.json?max_tag_id&count=60&access_token&client_id=2854a4f9829e4aaf8137411534a982d0: 400: "access_token" URL parameter missing. This OAuth request requires an "access_token" URL parameter.):
+    1: <%= bigos_instagram_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__2643125186188115795_36534480'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+Connecting to database specified by database.yml
+  [1m[36mBigosInstagramBox::Setting Load (1.4ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_client_id' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE "settings" SET "value" = '--- YOUR_APP_ACCESS_TOKEN
+...
+', "updated_at" = '2013-01-25 22:24:52.412409' WHERE "settings"."id" = 57[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_client_secret' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE "settings" SET "value" = '--- YOUR_APP_CLIENT_SECRET
+...
+', "updated_at" = '2013-01-25 22:24:52.449938' WHERE "settings"."id" = 58[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_access_token' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE "settings" SET "value" = '--- YOUR_APP_ACCESS_TOKEN
+...
+', "updated_at" = '2013-01-25 22:24:52.455025' WHERE "settings"."id" = 59[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_hashtag' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE "settings" SET "value" = '--- ''''
+', "updated_at" = '2013-01-25 22:24:52.460078' WHERE "settings"."id" = 60[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_user_id' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_user_name' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE "settings" SET "value" = '--- ''''
+', "updated_at" = '2013-01-25 22:24:52.468931' WHERE "settings"."id" = 62
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.8ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_latitude' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE "settings" SET "value" = '--- ''''
+', "updated_at" = '2013-01-25 22:24:52.477286' WHERE "settings"."id" = 63
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox_longitude' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE "settings" SET "value" = '--- ''''
+', "updated_at" = '2013-01-25 22:24:52.483576' WHERE "settings"."id" = 64
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m

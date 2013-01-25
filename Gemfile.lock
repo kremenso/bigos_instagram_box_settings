@@ -1,7 +1,16 @@
+GIT
+  remote: git://github.com/kremenso/bigos_settings.git
+  revision: fa59dd1eb8bf3ebfacc9315506c4847568929634
+  specs:
+    bigos_settings (0.0.1)
+      rails (~> 3.2.9)
+      rails-settings-cached
+
 PATH
   remote: .
   specs:
-    bigos_instagram_box (0.0.4)
+    bigos_instagram_box (0.0.5)
+      bigos_settings
       instagram
       rails (~> 3.2.9)
       yettings
@@ -63,6 +72,7 @@ GEM
     mime-types (1.19)
     multi_json (1.5.0)
     multipart-post (1.1.5)
+    pg (0.14.1)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
@@ -79,6 +89,8 @@ GEM
       activesupport (= 3.2.9)
       bundler (~> 1.0)
       railties (= 3.2.9)
+    rails-settings-cached (0.2.4)
+      rails (>= 3.0.0)
     railties (3.2.9)
       actionpack (= 3.2.9)
       activesupport (= 3.2.9)
@@ -108,5 +120,7 @@ PLATFORMS
 
 DEPENDENCIES
   bigos_instagram_box!
+  bigos_settings!
   jquery-rails
+  pg
   sqlite3

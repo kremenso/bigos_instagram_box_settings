@@ -9,14 +9,14 @@ module BigosInstagramBox
       end
 
       def create_settings
-      Setting["#{BigosInstagramBox.name}_client_id"] = "YOUR_APP_ACCESS_TOKEN"
-      Setting["#{BigosInstagramBox.name}_client_secret"] = "YOUR_APP_CLIENT_SECRET"
-      Setting["#{BigosInstagramBox.name}_access_token "]= "YOUR_APP_ACCESS_TOKEN"
-      Setting["#{BigosInstagramBox.name}_hashtag"] = ""
-      Setting["#{BigosInstagramBox.name}_user_id"] = ""
-      Setting["#{BigosInstagramBox.name}_user_name"] = ""
-      Setting["#{BigosInstagramBox.name}_latitude"] = ""
-      Setting["#{BigosInstagramBox.name}_longitude"] = ""
+        Setting["#{BigosInstagramBox.name}_client_id"] = "YOUR_APP_ACCESS_TOKEN"
+        Setting["#{BigosInstagramBox.name}_client_secret"] = "YOUR_APP_CLIENT_SECRET"
+        Setting["#{BigosInstagramBox.name}_access_token"]= "YOUR_APP_ACCESS_TOKEN"
+        Setting["#{BigosInstagramBox.name}_hashtag"] = ""
+        Setting["#{BigosInstagramBox.name}_user_id"] = ""
+        Setting["#{BigosInstagramBox.name}_user_name"] = ""
+        Setting["#{BigosInstagramBox.name}_latitude"] = ""
+        Setting["#{BigosInstagramBox.name}_longitude"] = ""
       end
 
     end
