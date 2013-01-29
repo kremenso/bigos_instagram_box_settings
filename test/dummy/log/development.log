@@ -2977,3 +2977,225 @@ Connecting to database specified by database.yml
   [1m[35m (0.4ms)[0m  UPDATE "settings" SET "value" = '--- ''''
 ', "updated_at" = '2013-01-25 22:24:52.483576' WHERE "settings"."id" = 64
   [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mBigosInstagramBox::Setting Load (1.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.client_id' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- YOUR_APP_ACCESS_TOKEN\n...\n"], ["var", "BigosInstagramBox.client_id"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.client_secret' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- YOUR_APP_CLIENT_SECRET\n...\n"], ["var", "BigosInstagramBox.client_secret"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.access_token' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- YOUR_APP_ACCESS_TOKEN\n...\n"], ["var", "BigosInstagramBox.access_token"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.7ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.hashtag' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosInstagramBox.hashtag"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.user_id' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosInstagramBox.user_id"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.user_name' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosInstagramBox.user_name"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.4ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.latitude' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosInstagramBox.latitude"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.longitude' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosInstagramBox.longitude"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mBigosInstagramBox::Setting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.limit' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Tue, 29 Jan 2013 18:23:39 UTC +00:00], ["value", "--- 10\n...\n"], ["var", "BigosInstagramBox.limit"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-29 19:26:13 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_widget.html.erb (0.6ms)
+  Rendered test/index.html.erb within layouts/application (39.9ms)
+Compiled application.css  (1ms)  (pid 10000)
+Compiled jquery.js  (1ms)  (pid 10000)
+Compiled jquery_ujs.js  (0ms)  (pid 10000)
+Compiled application.js  (48ms)  (pid 10000)
+Completed 200 OK in 155ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-29 19:26:13 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:13 +0100
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:13 +0100
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:13 +0100
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-29 19:26:15 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_widget.html.erb (0.1ms)
+  Rendered test/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-29 19:26:15 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:15 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:15 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-29 19:26:17 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_widget.html.erb (0.1ms)
+  Rendered test/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-29 19:26:18 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:18 +0100
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-29 19:26:18 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-29 19:27:03 +0100
+Processing by TestController#index as HTML
+  [1m[36mBigosInstagramBox::Setting Load (0.9ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.client_id' LIMIT 1[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.client_secret' LIMIT 1
+  [1m[36mBigosInstagramBox::Setting Load (0.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.hashtag' LIMIT 1[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.limit' LIMIT 1
+  [1m[36mBigosInstagramBox::Setting Load (0.6ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.user_id' LIMIT 1[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.user_name' LIMIT 1
+  [1m[36mBigosInstagramBox::Setting Load (0.4ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.latitude' LIMIT 1[0m
+  [1m[35mBigosInstagramBox::Setting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosInstagramBox.longitude' LIMIT 1
+Instagram by Location API ERROR
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.9ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.2ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_post.html.erb (0.1ms)
+  Rendered /home/kaptur/rails-workspace/bigos_instagram_box_settings/app/views/bigos_instagram_box/module/_widget.html.erb (23.9ms)
+  Rendered test/index.html.erb within layouts/application (2117.8ms)
+Compiled application.css  (0ms)  (pid 10033)
+Compiled jquery.js  (38ms)  (pid 10033)
+Compiled jquery_ujs.js  (0ms)  (pid 10033)
+Compiled application.js  (58ms)  (pid 10033)
+Completed 200 OK in 2240ms (Views: 2228.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-29 19:27:05 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-29 19:27:05 +0100
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-29 19:27:05 +0100
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-29 19:27:05 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/admin/page_templates/9" for 127.0.0.1 at 2013-01-29 19:28:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/admin/page_templates/9"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/admin/settings" for 127.0.0.1 at 2013-01-29 19:28:15 +0100
+
+ActionController::RoutingError (No route matches [GET] "/admin/settings"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
