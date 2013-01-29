@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8612f29d-0015-4ddb-aa69-59791fb11bde" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/log/development.log" afterPath="$PROJECT_DIR$/test/dummy/log/development.log" />
     </list>
     <ignored path="bigos_instagram_box_settings.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +33,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="103" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.6868421">
+            <state line="20" column="26" selection-start="996" selection-end="996" vertical-scroll-proportion="0.6868421">
               <folding />
             </state>
           </provider>
@@ -672,7 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="103" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.6868421">
+        <state line="20" column="26" selection-start="996" selection-end="996" vertical-scroll-proportion="0.6868421">
           <folding />
         </state>
       </provider>

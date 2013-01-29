@@ -18,7 +18,7 @@ module BigosInstagramBox
         Setting["#{BigosInstagramBox.name}.latitude"] = ""
         Setting["#{BigosInstagramBox.name}.longitude"] = ""
         Setting["#{BigosInstagramBox.name}.limit"] = 10
-        BigosApp::Module.create(name: BigosInstagramBox.name, page_element: BigosApp::BigosInstagramBoxElement)
+        BigosApp::InstaledModule.create(name: BigosInstagramBox.name, page_element: BigosApp::BigosInstagramBoxElement)
       end
 
 
