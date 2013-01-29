@@ -10,7 +10,6 @@ module BigosInstagramBox
           config.client_secret = Setting["#{BigosInstagramBox.name}_client_secret"]
         end
 
-
         posts = []
         get_by_hash(posts, max_tag_id, count) unless Setting["#{BigosInstagramBox.name}_hashtag"].blank?
         get_by_user(posts, max_tag_id, count) unless Setting["#{BigosInstagramBox.name}_user_id"].blank?

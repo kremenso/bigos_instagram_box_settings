@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8612f29d-0015-4ddb-aa69-59791fb11bde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/bigos_instagram_box/instagram_photo.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/CD5/370/sprockets%2F4400ce524023267dc209e6d518de5ca9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/D36/6C0/sprockets%2F110318e34e358f82ce50ccb8bb218b9d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/DA9/4C0/sprockets%2F31e904fcfed6ef6e2eeb6584f64422a5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/DD6/3F0/sprockets%2Ff72f687bedca6445cf039d0c3ce3d8d4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/bigos_instagram_box/_item.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bigos_app/bigos_instagram_box_element.rb" afterPath="$PROJECT_DIR$/app/models/bigos_app/bigos_instagram_box_element.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bigos_instagram_box/controllers/helpers.rb" afterPath="$PROJECT_DIR$/lib/bigos_instagram_box/controllers/helpers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/config/database.yml" afterPath="$PROJECT_DIR$/test/dummy/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/log/development.log" afterPath="$PROJECT_DIR$/test/dummy/log/development.log" />
     </list>
     <ignored path="bigos_instagram_box_settings.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,15 +29,6 @@
         <entry file="file://$PROJECT_DIR$/app/models/bigos_instagram_box/setting.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="21" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bigos_instagram_box.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bigos_instagram_box.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="helpers.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bigos_instagram_box/controllers/helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.02819549">
+            <state line="10" column="11" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigos_instagram_box_element.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bigos_instagram_box_element.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_instagram_box_element.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="8" column="32" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20236088">
               <folding />
             </state>
           </provider>
@@ -143,7 +121,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/models/bigos_contact_box/message.rb" />
         <option value="$PROJECT_DIR$/app/models/bigos_instagram_box/setting.rb" />
-        <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_instagram_box_element.rb" />
         <option value="$PROJECT_DIR$/bigos_instagram_box.gemspec" />
         <option value="$PROJECT_DIR$/lib/bigos_instagram_box.rb" />
         <option value="$PROJECT_DIR$/lib/generators/templates/bigos_instagram_box.rb" />
@@ -151,6 +128,7 @@
         <option value="$PROJECT_DIR$/app/models/bigos_app/instagram_photo.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/bigos_instagram_box/controllers/helpers.rb" />
+        <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_instagram_box_element.rb" />
       </list>
     </option>
   </component>
@@ -186,6 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -417,72 +396,9 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_instagram_box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_instagram_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_instagram_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_instagram_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_instagram_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_instagram_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_instagram_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -492,6 +408,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/bigos_instagram_box" />
       <recent name="$PROJECT_DIR$/test/dummy/config/initializers" />
       <recent name="$PROJECT_DIR$/test/dummy/config" />
       <recent name="$PROJECT_DIR$/app" />
@@ -665,7 +582,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25419664" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2589928" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -734,13 +651,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/bigos_instagram_box.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bigos_instagram_box/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="54" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
@@ -769,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_instagram_box_element.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bigos_instagram_box/setting.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="21" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
@@ -785,9 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bigos_instagram_box.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bigos_instagram_box.rb">
@@ -841,7 +742,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bigos_instagram_box/controllers/helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.02819549">
+        <state line="10" column="11" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_instagram_box/_item.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_instagram_box_element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20236088">
           <folding />
         </state>
       </provider>
