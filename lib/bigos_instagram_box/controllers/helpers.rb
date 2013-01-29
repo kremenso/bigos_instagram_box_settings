@@ -3,7 +3,7 @@ module BigosInstagramBox
     module Helpers
       extend ActiveSupport::Concern
 
-      def bigos_instagram_box_widget(max_tag_id = nil, count = 60)
+      def bigos_instagram_box_widget(max_tag_id = nil, )
 
         Instagram.configure do |config|
           config.client_id = Setting["#{BigosInstagramBox.name}_client_id"]
@@ -11,10 +11,10 @@ module BigosInstagramBox
         end
 
         posts = []
-        get_by_hash(posts, max_tag_id, count) unless Setting["#{BigosInstagramBox.name}_hashtag"].blank?
-        get_by_user(posts, max_tag_id, count) unless Setting["#{BigosInstagramBox.name}_user_id"].blank?
-        search_and_get_by_user_name(posts, max_tag_id, count) unless Setting["#{BigosInstagramBox.name}_user_name"].blank?
-        get_by_location(posts, max_tag_id, count) unless Setting["#{BigosInstagramBox.name}_latitude"].blank?
+        get_by_hash(posts, max_tag_id, Setting["#{BigosInstagramBox.name}_limit"]) unless Setting["#{BigosInstagramBox.name}_hashtag"].blank?
+        get_by_user(posts, max_tag_id, Setting["#{BigosInstagramBox.name}_limit"]) unless Setting["#{BigosInstagramBox.name}_user_id"].blank?
+        search_and_get_by_user_name(posts, max_tag_id, Setting["#{BigosInstagramBox.name}_limit"]) unless Setting["#{BigosInstagramBox.name}_user_name"].blank?
+        get_by_location(posts, max_tag_id, Setting["#{BigosInstagramBox.name}_limit"]) unless Setting["#{BigosInstagramBox.name}_latitude"].blank?
 
         render :partial=>"bigos_instagram_box/module/widget", :locals=>{:posts => posts}
       end

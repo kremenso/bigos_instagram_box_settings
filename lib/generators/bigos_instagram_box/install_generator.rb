@@ -17,7 +17,9 @@ module BigosInstagramBox
         Setting["#{BigosInstagramBox.name}_user_name"] = ""
         Setting["#{BigosInstagramBox.name}_latitude"] = ""
         Setting["#{BigosInstagramBox.name}_longitude"] = ""
+        Setting["#{BigosInstagramBox.name}_limit"] = 10
       end
+
 
     end
   end
