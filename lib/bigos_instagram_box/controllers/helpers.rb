@@ -3,7 +3,7 @@ module BigosInstagramBox
     module Helpers
       extend ActiveSupport::Concern
 
-      def bigos_instagram_box_widget(max_tag_id = nil, )
+      def bigos_instagram_box_widget(max_tag_id = nil)
 
         Instagram.configure do |config|
           config.client_id = Setting["#{BigosInstagramBox.name}_client_id"]
